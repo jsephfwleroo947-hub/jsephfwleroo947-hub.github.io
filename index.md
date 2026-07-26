@@ -1,16 +1,17 @@
 # IT & Cybersecurity Fundamentals
 
-This is a portfolio documenting my understanding of core IT and cybersecurity concepts, written while studying Classics at the University of Nottingham and building practical experience through placements and TryHackMe.
+This portfolio documents my practical understanding of core IT and cybersecurity concepts. I've built it while studying Classics at the University of Nottingham, alongside hands-on experience from IT and cybersecurity placements, tech consultancy work, and volunteering in robotics.
 
-I'm coming into this field without a formal computing degree, so this portfolio starts from the fundamentals rather than assuming background knowledge. Each section covers a topic in plain language, focused on understanding *why* things work the way they do, not just listing facts.
+This portfolio starts from the fundamentals rather than assuming background knowledge. Each section covers a topic in plain language, focused on understanding *why* things work the way they do, rather than just noting the facts/
 
 ## Background
 
 I've picked up practical experience through:
-- An IT MSP placement (pfSense, Proxmox, VLANs, NinjaOne, Keeper)
-- A cybersecurity placement (Microsoft Defender XDR, Microsoft Copilot for Security)
-- Ongoing TryHackMe practice, focused on Active Directory
-- Volunteer technical work with STEMpura, a UK STEM charity
+- Two IT MSP placements (firewall management, virtualisation, network segmentation, remote monitoring & management (RMM), password/credential management)
+- A cybersecurity placement (Microsoft Defender XDR, Microsoft Copilot for Security, Azure landscape) 
+- A Student Technology Consultant placement, delivering a market research report and strategic recommendations for an edtech client
+- Volunteer technical work with STEMpura, a UK STEM charity (Building cybersecurity schools workshop programme)
+- Juding at the Word Robot Olympiad
 
 ## Sections
 
