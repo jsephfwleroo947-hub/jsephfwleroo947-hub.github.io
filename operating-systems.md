@@ -21,7 +21,7 @@ Regardless of which OS, every one is responsible for the same core jobs:
 | **Windows** | Business/enterprise, general consumer | Widest software compatibility, most targeted by malware due to market share, familiar GUI |
 | **macOS** | Creative industries, general consumer | Tightly controlled hardware/software ecosystem (Apple builds both), often perceived as "just works" but with real limitations - less flexible for customisation, historically weaker gaming/enterprise software support, and a reputation among some users that's more about ecosystem lock-in than pure technical superiority |
 | **Linux** | Servers, developers, security tooling | Open source, highly customisable, but often has a steeper learning curve for newcomers - command-line reliance and fragmented distributions (Ubuntu, Debian, Fedora, etc.) can be a real barrier despite being extremely powerful and lightweight |
-| **ChromeOS** | Education, budget/charity devices, cloud-first use | Built around browser-based use and cloud storage rather than local installs, meaning it can breathe new life into older or lower-spec hardware — exactly why it suited the donated laptops from my placement |
+| **ChromeOS** | Education, budget/charity devices, cloud-first use | Built around browser-based use and cloud storage rather than local installs, meaning it can breathe new life into older or lower-spec hardware. This is exactly why it suited the donated laptops from my placement |
 
 ## File systems and permissions
 
