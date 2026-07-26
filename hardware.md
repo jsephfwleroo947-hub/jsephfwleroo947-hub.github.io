@@ -8,7 +8,7 @@ During my IT MSP placement, I worked hands-on with laptop builds, which included
 
 ## The core components
 
-A useful comparison I came across on TryHackMe treats a computer like a body — each part has a distinct job, and the "body" only functions when they work together correctly.
+A useful comparison I came across on TryHackMe treats a computer like a body; each part has a distinct job, and the "body" only functions when they work together correctly.
 
 | Component | Body analogy | What it actually does |
 |---|---|---|
@@ -24,7 +24,7 @@ A useful comparison I came across on TryHackMe treats a computer like a body —
 ## The boot process (briefly)
 
 When a computer powers on:
-1. **BIOS/UEFI** runs first — a small firmware program that checks hardware is present and functioning
+1. **BIOS/UEFI** runs first = a small firmware program that checks hardware is present and functioning
 2. It hands control to the **bootloader**, which locates the operating system
 3. The OS loads into **RAM** and takes over, ready for user interaction
 
@@ -32,6 +32,6 @@ When a computer powers on:
 
 Understanding hardware directly informs real security practice:
 - **RAM (volatile memory)** can contain sensitive data like passwords or encryption keys while a system is running, which is why RAM analysis is a real forensic technique after an incident
-- **Storage wiping** (like the SSD wipes I did during laptop builds) matters because deleted files aren't necessarily gone — improper wiping can leave recoverable data behind, a real risk when redeploying or disposing of devices
+- **Storage wiping** (like the SSD wipes I did during laptop builds) matters because deleted files aren't necessarily gone - improper wiping can leave recoverable data behind, a real risk when redeploying or disposing of devices
 - **Firmware-level security (BIOS/UEFI)** is a genuine attack surface - malware that infects the boot process can persist even through OS reinstalls, which is why boot security (e.g. Secure Boot) exists
 - Knowing what's physically happening in a machine means you can reason about *where* an attack or vulnerability actually lives, rather than treating "the computer" as a black box
