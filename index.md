@@ -11,7 +11,7 @@ I have gained practical experience through:
 - A cybersecurity placement (Microsoft Defender XDR, Microsoft Copilot for Security, Azure landscape) 
 - A Student Technology Consultant placement, delivering a market research report and strategic recommendations for an edtech client
 - Volunteer technical work with STEMpura, a UK STEM charity (Building cybersecurity schools workshop programme)
-- Juding at the Word Robot Olympiad
+- Volunteering and later judging at the Word Robot Olympiad
 - Teaching at CodeCamp (Teaching technical skills to pupils aged 10-16)
 
 ## Sections
