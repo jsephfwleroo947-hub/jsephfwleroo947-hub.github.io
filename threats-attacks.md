@@ -5,6 +5,7 @@ Understanding threats is useful, but seeing them show up in real alerts and logs
 ## Where this comes from
 
 Working with real monitoring tools exposed me to genuine attack attempts, not just theoretical examples, including suspicious sign-ins from unexpected countries, brute force login attempts, and the ongoing need to actively encourage good security hygiene among end users to prevent social engineering from ever succeeding.
+
 ## Impossible travel / anomalous sign-ins
 
 One pattern I saw directly was customer/user logins originating from countries far outside their normal usage pattern - sometimes referred to as "impossible travel" (e.g. a login from the UK followed shortly after by one from another continent, which isn't physically plausible). This is a strong signal of a compromised account, since it suggests someone other than the legitimate user has valid credentials. Tools like Defender flag this automatically by comparing sign-in location/time against a user's normal behaviour baseline.
@@ -31,6 +32,16 @@ Phishing is deceptive communication designed to trick someone into revealing cre
 
 The common thread across all variants is exploiting trust and urgency rather than a technical vulnerability, which is why user awareness remains essential regardless of the delivery method.
 
+## Email authentication (stopping phishing at the protocol level)
+
+Alongside user awareness, email itself has technical protections designed to verify that a message genuinely came from who it claims to be from. During a detailed rundown of an MSP's cybersecurity setup, I was talked through how this works in practice - the underlying goal being to confirm the sending server is legitimate, the message hasn't been tampered with, and spoofed emails are handled properly before they ever reach a user:
+
+- **SPF (Sender Policy Framework)** 🡢 verifies that an email was sent from a server actually authorised to send on behalf of that domain, rejecting or flagging messages sent from unauthorised servers
+- **DKIM (DomainKeys Identified Mail)** 🡢 adds a digital signature to outgoing email, allowing the receiving server to verify the message wasn't altered in transit and genuinely originated from the claimed domain
+- **DMARC (Domain-based Message Authentication, Reporting & Conformance)** 🡢 builds on SPF and DKIM by telling receiving mail servers what to do if a message fails those checks (reject, quarantine, or allow), and provides reporting back to the domain owner on authentication failures
+
+Together, these three protocols are a major reason why convincing domain-spoofing attacks (e.g. an email that appears to come exactly from "yourbank.com") are harder to pull off than they might seem - tools like Mimecast enforce and build on these checks as part of wider email security. This is a good example of why phishing defence isn't purely a user-awareness problem: proper protocol-level verification stops a significant portion of spoofed emails before a user ever needs to spot anything suspicious.
+
 ## Malware
 
 Malicious software that, once installed, can steal data, provide ongoing unauthorised access, or cause direct damage. Common categories include ransomware (encrypting data and demanding payment), spyware (covertly monitoring activity), and trojans (disguised as legitimate software).
@@ -41,7 +52,7 @@ Attack methods are constantly evolving, which means understanding today's threat
 
 - **Lowering the barrier to entry** 🡢 AI tools can help less skilled attackers ("script kiddies") generate more convincing phishing messages, basic malware variants, or automate parts of an attack that previously required real technical skill
 - **Increasing sophistication at the top end** 🡢 more advanced attackers use AI to generate highly convincing deepfake audio/video for vishing-style attacks, write more evasive malware, or automate reconnaissance against a target at a scale manual effort couldn't match
-- **AI in defence too** 🡢 the same shift applies to tools like Copilot for Security, which uses AI to help analysts triage and investigate faster, showing that this isn't one-sided 
+- **AI in defence too** 🡢 the same shift applies to tools like Copilot for Security, which uses AI to help analysts triage and investigate faster, showing that this isn't one-sided
 
 This matters practically because a portfolio or skillset that only reflects "traditional" threats risks going stale quickly. Keeping up with how attacks evolve, rather than treating security as a fixed list of known threats, is part of genuinely understanding the field rather than just memorising it at a point in time.
 
