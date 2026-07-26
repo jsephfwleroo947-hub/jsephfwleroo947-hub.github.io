@@ -19,7 +19,7 @@ A useful comparison I came across on TryHackMe treats a computer like a body; ea
 | **Power Supply Unit (PSU)** | Heart | Converts and delivers power to every component |
 | **GPU (Graphics Processing Unit)** | Visual cortex | Handles rendering images/video; also used for parallel processing tasks beyond graphics |
 | **Cooling system (fans/heatsinks)** | Sweat glands | Prevents components (especially the CPU) from overheating under load |
-| **Peripherals (keyboard, mouse, screen)** | Senses/limbs | Input and output — how a user interacts with the machine |
+| **Peripherals (keyboard, mouse, screen)** | Senses/limbs | Input and output - how a user interacts with the machine |
 
 ## The boot process (briefly)
 
@@ -33,5 +33,5 @@ When a computer powers on:
 Understanding hardware directly informs real security practice:
 - **RAM (volatile memory)** can contain sensitive data like passwords or encryption keys while a system is running, which is why RAM analysis is a real forensic technique after an incident
 - **Storage wiping** (like the SSD wipes I did during laptop builds) matters because deleted files aren't necessarily gone - improper wiping can leave recoverable data behind, a real risk when redeploying or disposing of devices
-- **Firmware-level security (BIOS/UEFI)** is a genuine attack surface - malware that infects the boot process can persist even through OS reinstalls, which is why boot security (e.g. Secure Boot) exists
-- Knowing what's physically happening in a machine means you can reason about *where* an attack or vulnerability actually lives, rather than treating "the computer" as a black box
+- **Firmware-level security (BIOS/UEFI)** is an attack surface - malware that infects the boot process can persist even through OS reinstalls, which is why boot security (e.g. Secure Boot) exists
+- Knowing what's physically happening in a machine means you can reason about *where* an attack or vulnerability actually lives, as opposed to treating "the computer" as a black box
