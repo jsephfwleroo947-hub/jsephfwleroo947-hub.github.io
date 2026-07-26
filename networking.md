@@ -6,7 +6,7 @@ Networking is how individual machines become part of a functioning system. Under
 
 Across both my IT MSP and cybersecurity placements, I did hands-on structured cabling work: cutting and crimping PoE (Power over Ethernet) cables, arranging the wire pairs in the correct order, fitting connectors, testing continuity, and then implementing the cables into the live network. This gave me a genuinely physical understanding of networking: a "connection" isn't just a line on a diagram, it's real cabling that has to be correctly terminated to function at all, let alone securely.
 
-I also oversaw, during my MSP placement, the implementation of a firewall used to segment the MSP's network from other companies operating in the same building, as well as from the building's CCTV service — a practical example of network segmentation as a real security control.
+I also oversaw, during my MSP placement, the implementation of a firewall used to segment the MSP's network from other companies operating in the same building, as well as from the building's CCTV service - a practical example of network segmentation as a real security control.
 ## Core concepts
 
 | Term | What it means |
