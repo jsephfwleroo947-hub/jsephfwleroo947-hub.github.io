@@ -4,7 +4,7 @@ Systems administration is the ongoing work of keeping an organisation's devices,
 
 ## Where this comes from
 
-During my cybersecurity placement, a key focus was routine patch management — applying security updates to fix known vulnerabilities and bugs before they could be exploited. I also worked hands-on with Active Directory as an administrator, including configuring conditional access policies, managing privileged access, and applying Group Policy rules. I used Microsoft Entra (formerly Azure AD) to check whether company devices were up to date, properly configured, and conforming to company policy — giving me direct exposure to how organisations manage device compliance at scale, rather than relying on individual users to keep their own machines updated.
+During my cybersecurity placement, a key focus was routine patch management — applying security updates to fix known vulnerabilities and bugs before they could be exploited. I also worked hands-on with Active Directory as an administrator, including configuring conditional access policies, managing privileged access, and applying Group Policy rules. I used Microsoft Entra (formerly Azure AD) to check whether company devices were up to date, properly configured, and conforming to company policy — giving me direct exposure to how organisations manage device compliance at scale, rather than relying on individual users to keep their own machines updated
 
 ## Core concepts
 
