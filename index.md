@@ -16,16 +16,16 @@ I have gained practical experience through:
 
 ## Sections
 
-1. [Inside a Computer](hardware.md) — hardware and architecture basics
-2. [Operating Systems](operating-systems.md) — how Windows and Linux manage processes, memory, and files
-3. [Networking](networking.md) — TCP/IP, DNS, ports, firewalls
-4. [Systems Administration](sysadmin.md) — accounts, permissions, patching, device management
-5. [Cloud Computing](cloud.md) — service models and shared responsibility
-6. [Cybersecurity Fundamentals](cyber-fundamentals.md) — CIA triad, threats, encryption
-7. [Frameworks & Compliance](frameworks-compliance.md) — Cyber Essentials, GDPR basics
-8. [Security Operations](security-operations.md) — monitoring, logging, incident response
-9. [Common Threats & Attacks](threats-attacks.md) — malware, phishing, social engineering
-10. [Tools I've Used](tools.md) — practical tools from placements and self-study
+1. [Inside a Computer](hardware.md) 🡢 hardware and architecture basics
+2. [Operating Systems](operating-systems.md) 🡢 how Windows and Linux manage processes, memory, and files
+3. [Networking](networking.md) 🡢 TCP/IP, DNS, ports, firewalls
+4. [Systems Administration](sysadmin.md) 🡢 accounts, permissions, patching, device management
+5. [Cloud Computing](cloud.md) 🡢 service models and shared responsibility
+6. [Cybersecurity Fundamentals](cyber-fundamentals.md) 🡢 CIA triad, threats, encryption
+7. [Frameworks & Compliance](frameworks-compliance.md) 🡢 Cyber Essentials, GDPR basics
+8. [Security Operations](security-operations.md) 🡢 monitoring, logging, incident response
+9. [Common Threats & Attacks](threats-attacks.md) 🡢 malware, phishing, social engineering
+10. [Tools I've Used](tools.md) 🡢 practical tools from placements and self-study
 
 ## Contact
 
