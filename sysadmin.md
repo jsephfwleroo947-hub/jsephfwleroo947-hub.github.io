@@ -32,4 +32,4 @@ During my cybersecurity placement, a key focus was routine patch management; app
 - **Unpatched systems are one of the most common real-world breach causes** - many major incidents exploit known vulnerabilities that had a patch available but hadn't been applied yet, which is exactly why routine patching was a priority during my placement
 - **Privileged accounts are high-value targets** - attackers specifically seek out admin credentials, which is why least privilege and careful management of privileged access directly reduce risk
 - **Conditional access and device compliance checks** mean access isn't just "username and password" - a compromised password alone doesn't guarantee an attacker gets in, if the device or context doesn't also meet policy
-- **Zero trust reflects how modern organisations actually operate** — with remote work and cloud services, there's no longer a clearly defined "inside" the network to trust by default
+- **Zero trust reflects how modern organisations actually operate** ; with remote work and cloud services, there's no longer a clearly defined "inside" the network to trust by default
