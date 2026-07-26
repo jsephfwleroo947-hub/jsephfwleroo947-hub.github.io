@@ -21,7 +21,7 @@ A useful comparison I came across on TryHackMe treats a computer like a body; ea
 | **Cooling system (fans/heatsinks)** | Sweat glands | Prevents components (especially the CPU) from overheating under load |
 | **Peripherals (keyboard, mouse, screen)** | Senses/limbs | Input and output - how a user interacts with the machine |
 
-## The boot process (briefly)
+## The boot process 
 
 When a computer powers on:
 1. **BIOS/UEFI** runs first = a small firmware program that checks hardware is present and functioning
