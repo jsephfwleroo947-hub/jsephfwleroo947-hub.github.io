@@ -27,6 +27,10 @@ A firewall controls what traffic is allowed to pass between networks, based on d
 
 The firewall implementation I oversaw at my MSP placement is a real-world example of this: separating the MSP's own network traffic from other companies in the same building, and from the CCTV system, meant that even if one network was compromised, it couldn't automatically reach the others. This is the core principle behind **network segmentation**, reducing the "blast radius" of any single security incident.
 
+
+![Network segmentation diagram](network-segmentation-diagram.svg)
+
+
 ## Relevence to security
 
 - **Physical layer matters** - a badly terminated cable isn't just an inconvenience, in some cases (e.g. exposed wiring, unsecured patch panels) physical network access is itself a security risk
