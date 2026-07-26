@@ -1,17 +1,18 @@
 # IT & Cybersecurity Fundamentals
 
-This portfolio documents my practical understanding of core IT and cybersecurity concepts. I've built it while studying Classics at the University of Nottingham, alongside hands-on experience from IT and cybersecurity placements, tech consultancy work, and volunteering in robotics.
+This portfolio documents my practical understanding of core IT and cybersecurity concepts. I've built it while studying Classics at the University of Nottingham, alongside hands-on experience from IT and cybersecurity placements, tech consultancy work, volunteering in robotics and working as a Code Camp Head Teacher.
 
-This portfolio starts from the fundamentals rather than assuming background knowledge. Each section covers a topic in plain language, focused on understanding *why* things work the way they do, rather than just noting the facts/
+This portfolio underlines my learning and application of the fundamentals rather than assuming background knowledge. Each section covers a topic in plain language, focused on understanding *why* things work the way they do, rather than just noting the facts.
 
-## Background
+## My background
 
-I've picked up practical experience through:
-- Two IT MSP placements (firewall management, virtualisation, network segmentation, remote monitoring & management (RMM), password/credential management)
+I have gained practical experience through:
+- Completing two IT MSP placements (firewall management, virtualisation, network segmentation, remote monitoring & management (RMM), password/credential management)
 - A cybersecurity placement (Microsoft Defender XDR, Microsoft Copilot for Security, Azure landscape) 
 - A Student Technology Consultant placement, delivering a market research report and strategic recommendations for an edtech client
 - Volunteer technical work with STEMpura, a UK STEM charity (Building cybersecurity schools workshop programme)
 - Juding at the Word Robot Olympiad
+- Teaching at CodeCamp (Teaching technical skills to pupils aged 10-16)
 
 ## Sections
 
