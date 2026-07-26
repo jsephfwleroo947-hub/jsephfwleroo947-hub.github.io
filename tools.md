@@ -29,6 +29,5 @@ This section lists the specific tools and platforms I've worked with hands-on, t
 
 I'm currently working towards the **CCNA (Cisco Certified Network Associate)**, building on the networking fundamentals covered earlier in this portfolio with a recognised, structured qualification.
 
-## Why this list matters
 
-Tools change — the platform an employer uses may not be one on this list. What matters more than the specific product names is the underlying concept each tool represents (firewall management, RMM, identity and access management, SIEM, email security, compliance), since that understanding transfers across whichever specific tools a new role uses. This portfolio is built around that principle throughout: the fundamentals behind a tool matter more than the tool itself.
+Tools change and of course the platform an employer uses may not be one on this list. What matters more than the specific product names is the underlying concept each tool represents (firewall management, RMM, identity and access management, SIEM, email security, compliance), since that understanding transfers across whichever specific tools a new role uses. This portfolio is built around that principle throughout: the fundamentals behind a tool matter more than the tool itself.
